@@ -1,12 +1,27 @@
 # 🕵️ AI Investigator Copilot
 
-Production Architecture, Workflow Patterns and Prototype Implementation for AI-Enabled Financial Crime Investigations
+Architecture, Workflow Patterns and an Early Prototype for AI-Enabled Financial Crime Investigations
+
+---
+
+## Status (12 November 2026)
+
+A June 2026 prototype and design, kept as it was written. **It has been superseded by the NEXUS copilot case flow**: inside the NEXUS investigator console, three showcase cases each carry a recommendation, an EDD memo, the report draft their regime requires and the nominated officer's decision, every sentence with numbered sources. That flow is live on the public [NEXUS investigator console](https://dhartwig-fc.github.io/dan-hartwig-portfolio/projects/nexus/runtime-demo/console.html). Its wording is template-based today; AI wording awaits the owner's approval.
+
+What this repository actually holds, measured on 12 November 2026:
+
+- `archive/prototype-v1/ai_investigator_copilot.py`: a static Streamlit page whose alert, risk drivers and actions are written into the code.
+- `AI_Investigator_Enrichment_Protoype.ipynb`: an enrichment notebook using pandas only.
+- `architecture/reference-architecture/README.md`: the reference architecture.
+- Every other folder in the structure below (`prompts/`, `outputs/`, `sample-data/`, `python/workflows/`, `notebooks/prototypes/`) holds only a placeholder file.
+
+Nothing in the repository calls a language model.
 
 ---
 
 ## Executive Summary
 
-The AI Investigator Copilot is an AI-enabled investigation support platform designed to transform financial crime analytics and intelligence into investigator-ready decision support.
+The AI Investigator Copilot was designed as an AI-enabled investigation support capability to transform financial crime analytics and intelligence into investigator-ready decision support.
 
 The repository demonstrates how Financial Crime Analytics, Network Intelligence, Threat Intelligence and Large Language Models can be integrated into a unified investigation workflow.
 
@@ -79,6 +94,8 @@ Investigator Decision Support
 
 ## Repository Structure
 
+The planned structure. Apart from `architecture/` and `archive/`, these folders hold only placeholder files.
+
 ```text
 fc-prot02-ai-investigator-copilot
 │
@@ -137,16 +154,16 @@ Conversational Copilot
 
 ---
 
-## Current Prototype Components
+## Prototype Components
 
-| Component | Status |
+| Component | Status (measured 12 November 2026) |
 |------------|---------|
-| Alert Intelligence Generation | Complete |
-| Narrative Generation | Complete |
-| Risk Explanation | Complete |
-| Evidence Enrichment | Complete |
-| Conversational Investigation Support | Complete |
-| Dashboard Prototype | Complete |
+| Alert Intelligence Generation | Static example text in the v1 Streamlit page |
+| Narrative Generation | Not built here; delivered in the NEXUS copilot case flow (template-worded) |
+| Risk Explanation | Static example text in the v1 Streamlit page |
+| Evidence Enrichment | Enrichment notebook (pandas) |
+| Conversational Investigation Support | Not built |
+| Dashboard Prototype | v1 Streamlit page and screenshot in `archive/prototype-v1/` |
 
 ---
 
@@ -216,6 +233,4 @@ https://github.com/dhartwig-fc/fc-08-emerging-threat-intelligence
 
 ## Key Message
 
-This repository is no longer simply a prototype.
-
-It is evolving into the implementation platform for the AI Investigator Copilot capability and demonstrates how intelligence, analytics, orchestration and AI can be combined to augment Financial Crime investigations.
+This repository records the June 2026 design and first prototype of the AI Investigator Copilot. The capability itself has moved on: it is now built inside NEXUS as the copilot case flow, and this repository is not being developed further.

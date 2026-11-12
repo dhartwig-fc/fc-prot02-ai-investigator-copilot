@@ -1,6 +1,6 @@
 # 🕵️ AI Investigator Copilot
 
-[← Back to Portfolio](https://dhartwig-fc.github.io/fc-01-portfolio-site/)
+[← Back to Portfolio](https://dhartwig-fc.github.io/dan-hartwig-portfolio/)
 
 [LinkedIn](https://www.linkedin.com/in/dan-hartwig-financial-crime) | [GitHub Profile](https://github.com/dhartwig-fc)
 
